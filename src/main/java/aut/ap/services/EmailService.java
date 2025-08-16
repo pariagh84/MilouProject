@@ -15,7 +15,6 @@ public class EmailService {
         this.emailRepository = emailRepository;
     }
 
-    // String subject, String body, String receiverEmail, String senderEmail, Email forward, Email reply
 
     public void sendEmail(Email email, User receiver) throws Exception {
         EmailValidator emailValidator = new EmailValidator();
