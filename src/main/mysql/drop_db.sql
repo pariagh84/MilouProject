@@ -1,0 +1,1 @@
+drop database milou_db;
